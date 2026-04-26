@@ -145,3 +145,12 @@ body {
 .cancion {
   font-family: 'Poppins', sans-serif;
 }
+
+
+/*Cambiar letra y color a mensaje: No se encontraron resultados*/
+p {
+  color: #7fd1cc; /* rojo bonito */
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
