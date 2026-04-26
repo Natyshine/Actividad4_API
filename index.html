@@ -4,17 +4,21 @@
   <meta charset="UTF-8">
   <title>Buscador de Música</title>
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- Fuente -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
   <h1>🎵 Buscador de Música</h1>
 
+  <!-- 🔍 BUSCADOR -->
   <input type="text" id="searchInput" placeholder="Buscar artista o canción">
-  <button onclick="buscarMusica()">Buscar</button>
+  <button id="btnBuscar">Buscar</button>
+  <button id="btnBorrar">Borrar resultados</button>
 
+  <!-- 🎵 RESULTADOS -->
   <div id="resultados"></div>
 
   <script src="script.js"></script>
